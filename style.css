@@ -1,6 +1,7 @@
 .printString {
     position: absolute;
+    /* transform: translate(const(--x), const(--y));
     --x: 0px;
     --y: 0px;
-    transform: translate(let(--x), let(--y));
+    background: black; */
 }
