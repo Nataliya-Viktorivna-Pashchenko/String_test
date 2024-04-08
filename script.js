@@ -1,4 +1,7 @@
-document.querySelector(".btn").addEventListener("click", () => {
-    let data = document.querySelector(".inputString").value;
-    document.querySelector(".printString").innerHTML = data;
+const btn = document.querySelector(".btn");
+let data = document.querySelector(".inputString");
+let element = document.querySelector(".printString");
+
+btn.addEventListener('click', () => {
+    element.textContent = data.value;
 })

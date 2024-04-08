@@ -1,0 +1,6 @@
+.printString {
+    position: absolute;
+    --x: 0px;
+    --y: 0px;
+    transform: translate(let(--x), let(--y));
+}
